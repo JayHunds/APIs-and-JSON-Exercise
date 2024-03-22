@@ -1,10 +1,23 @@
-﻿namespace APIsAndJSON
+﻿using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+using OpenWeatherMap;
+namespace APIsAndJSON
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
-            Console.WriteLine("Hello, World");
+            await RonVSKanyeAPI.APIconverse(args);
+
+            await OpenWeatherMapAPI.Weather(args);
         }
     }
+
 }
+
+
+
+
+

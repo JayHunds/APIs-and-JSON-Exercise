@@ -16,3 +16,4 @@ C:\Users\Jayson\OneDrive\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\De
 C:\Users\Jayson\OneDrive\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.pdb
 C:\Users\Jayson\OneDrive\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\APIsAndJSON.genruntimeconfig.cache
 C:\Users\Jayson\OneDrive\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\obj\Debug\net6.0\ref\APIsAndJSON.dll
+C:\Users\Jayson\OneDrive\Desktop\repos\APIs-and-JSON-Exercise\APIsAndJSON\bin\Debug\net6.0\appsettings.json

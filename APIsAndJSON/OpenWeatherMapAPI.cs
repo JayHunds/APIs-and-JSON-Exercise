@@ -2,12 +2,15 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 namespace OpenWeatherMap;
 public class OpenWeatherMapAPI
 {
     public static async Task Weather(string[] args)
     {
-        string apiKey = "fad52fc2384b12af503b6c2abfc6fa7a";
+        var appsettingsText = File.ReadAllText("appsettings.json");
+
+        string apiKey = JObject.Parse(appsettingsText).GetValue("apiKey").ToString();
 
         string city = "Parker";
 
